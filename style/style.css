@@ -152,6 +152,79 @@ nav {
 /* banner section ends here */
 
 
+/* Online Games Funny Videos starts here */
+
+.online-g {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+
+}
+
+.online-p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.card-primary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1400px;
+    margin-left: 240px;
+    margin-top: 48px;
+}
+
+.card-container {
+    margin-right: 10px;
+}
+
+.card-main {
+    border: #4EC5F7 5px solid;
+    border-radius: 16px;
+    text-align: center;
+    width: 300px;
+    
+}
+
+.card-main img{
+    width: 300px;
+}
+
+.card-main p {
+    color: #534C64;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+.card-p {
+    margin-top: 25px;
+}
+
+
+
+/* Online Games Funny Videos ends here */
 
 
 
@@ -160,9 +233,7 @@ nav {
 
 
 
-
-
-/* rasponsive mobile view  */
+/* mobile view  */
 
 @media screen and (max-width:640px) {
     .nav-main {
@@ -209,7 +280,7 @@ nav {
         width: 100%;
     }
 
-    
+
 
 
 
