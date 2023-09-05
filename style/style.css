@@ -61,31 +61,161 @@ nav {
     font-size: 18px;
     font-weight: 500;
     border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
+    background: rgba(11, 2, 35, 0.10);
 }
 
 
 /* nav section ends here  */
 
 
+
+/* banner section starts here */
+
+.goat-container {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.goat {
+    width: 50%;
+    background-image: url(../images/Group\ 14.png);
+    /* text-align: center; */
+
+
+
+}
+
+.goat-main {
+    display: flex;
+    width: 50%;
+
+}
+
+.banner-main {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 120px;
+
+
+
+}
+
+.banner-h-one {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.banner-h-two {
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-p {
+    display: flex;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.btn-primary {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.btn-two {
+    background: #4EC5F7;
+}
+
+.banner-pic {
+    width: 50%;
+
+}
+
+
+
+/* banner section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+/* rasponsive mobile view  */
+
 @media screen and (max-width:640px) {
     .nav-main {
         flex-direction: column
-        
     }
 
     .nav-container-two {
         flex-direction: column;
-        
-        
+
+
     }
-    .nav-container-two a{
+
+    .nav-container-two a {
         margin: 0 auto;
         padding: 20px;
         margin-bottom: 20px;
-    
+
     }
+
+    .nav-container-two p {
+        display: inline;
+        margin-bottom: 20px;
+        margin-right: -70px;
+    }
+
+    /* nav ends  */
+
+    /* banner starts here  */
+
+    .goat-container {
+        flex-direction: column-reverse
+    }
+
+    .banner-pic img {
+        width: 400px;
+
+    }
+
+    .goat {
+        width: 100%;
+    }
+
+    .banner-main {
+        width: 100%;
+    }
+
     
+
+
+
+
+
+
+
 
 }
-
