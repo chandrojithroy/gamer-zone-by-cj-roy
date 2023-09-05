@@ -203,10 +203,10 @@ nav {
     border-radius: 16px;
     text-align: center;
     width: 300px;
-    
+
 }
 
-.card-main img{
+.card-main img {
     width: 300px;
 }
 
@@ -215,16 +215,119 @@ nav {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    
+
 }
 
 .card-p {
     margin-top: 25px;
 }
 
-
-
 /* Online Games Funny Videos ends here */
+
+
+/* Play Games Online Anywhere, Anytime starts  */
+
+.img-container {
+    width: 50%;
+    border-radius: 8px;
+    background: url(../images/Rectangle\ 67.png), #FFF 0px -18.568px / 100% 146.779% no-repeat;
+    background-repeat: no-repeat;
+    margin-left: 240px;
+    margin-top: 120px;
+    margin-right: 50px;
+
+}
+
+.img-con-two {
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: lightgray -7.209px 0px / 114.78% 100% no-repeat;
+    margin-left: 528px;
+    margin-top: 400px;
+}
+
+.play-gm {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-g {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.img-h h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.img-h p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.img-main {
+    display: flex;
+    background: #FFF;
+    align-items: center;
+
+}
+
+
+/* Icon section  */
+
+.icon-main{
+    padding-top:120px ;
+    padding-bottom: 120px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.icone-container{
+    width: 1400px;
+    margin-left: 220px;
+    word-wrap: normal;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.main-icon {
+    color: #0B0223;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Play Games Online Anywhere, Anytime ends  */
+
+
+
+
+
+
+
+
 
 
 
@@ -281,11 +384,50 @@ nav {
     }
 
 
+    /* game selection */
+
+
+    .card-primary {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px auto;
+        max-width: 400px;
+
+
+    }
+
+    .card-container {
+        margin-bottom: 10px;
+    }
+
+    /* game two img  */
+
+    .img-main {
+        flex-direction: column-reverse
+    }
+
+    .img-container {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .img-con-two {
+        margin-left: 52px;
+    }
+
+
+    
+
+    .icone-container{
+        width: auto;
+        margin-left: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 
 
 
-
-
+    
 
 
 
